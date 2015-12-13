@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Magebrew_CatalogRule>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends></depends>
+        </Magebrew_CatalogRule>
+    </modules>
+</config>

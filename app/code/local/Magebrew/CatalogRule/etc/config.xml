@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Magebrew_CatalogRule>
+            <version>1.0.0</version>
+        </Magebrew_CatalogRule>
+    </modules>
+    <global>
+        <blocks>
+            <magebrew_catalogrule>
+                <class>Magebrew_CatalogRule_Block</class>
+            </magebrew_catalogrule>
+            <adminhtml>
+                <rewrite>
+                    <promo_catalog_edit_tab_actions>Magebrew_CatalogRule_Block_Adminhtml_Promo_Catalog_Edit_Tab_Actions</promo_catalog_edit_tab_actions>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+        <helpers>
+            <magebrew_catalogrule>
+                <class>Magebrew_CatalogRule_Helper</class>
+            </magebrew_catalogrule>
+        </helpers>
+        <models>
+            <magebrew_catalogrule>
+                <class>Magebrew_CatalogRule_Model</class>
+            </magebrew_catalogrule>
+            <catalogrule>
+                <rewrite>
+                    <action_index_refresh>Magebrew_CatalogRule_Model_CatalogRule_Action_Index_Refresh</action_index_refresh>
+                    <action_index_refresh_row>Magebrew_CatalogRule_Model_CatalogRule_Action_Index_Refresh_Row</action_index_refresh_row>
+                </rewrite>
+            </catalogrule>
+        </models>
+    </global>
+</config>
